@@ -14,3 +14,19 @@ body {
     overflow: hidden;
     margin: 0;
 }
+
+.bg {
+    background: url('https://cdn-ext.fanatical.com/production/product/1280x720/b3ee69f1-5635-48a3-b357-d4704650e989.jpeg') no-repeat center center;
+    position: absolute;
+    top: -30px;
+    left: -30px;
+    width: calc(100vw + 60px);
+    height: calc(100vh + 60px);
+    z-index: -1;
+    filter: blur(0px);
+}
+
+.loading-text {
+    font-size: 50px;
+    color: #fff;
+}
